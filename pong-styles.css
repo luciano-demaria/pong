@@ -24,9 +24,6 @@ h2 {
   font-style: italics;
 }
 
-.container {
-  display: grid;
-  place-items: center;
 #game {
   margin: 4px;
   border: 5px white;
@@ -117,6 +114,4 @@ h2 {
 
 #right-score {
   right: 1%;
-}
-
 }
