@@ -24,9 +24,12 @@ h2 {
   font-style: italics;
 }
 
+.container {
+  display: grid;
+  place-items: center;
 #game {
   margin: 4px;
-  border: 5px hidden;
+  border: 5px white;
   left: 0;
   position: absolute;
   background-image: url("paper.gif");
@@ -114,4 +117,6 @@ h2 {
 
 #right-score {
   right: 1%;
+}
+
 }
