@@ -35,7 +35,7 @@ h2 {
   margin: 4px;
   border-width: 5px;
   border-color: white;
-  text-align: center;
+  left: 50%;
   position: absolute;
   background-image: url("pongBG1.png");
   background-size: cover;
