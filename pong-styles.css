@@ -26,11 +26,12 @@ h2 {
 
 #game {
   margin: 4px;
-  border: 5px white;
-  inset: 2rem;
+  border-width: 5px;
+  border-color: white;
+  left: 0;
   position: absolute;
   background-image: url("pongBG1.png");
-  background-size: cover;
+  background-size: 70%;
 }
 
 #left-paddle {
