@@ -32,7 +32,7 @@ h2 {
   text-align: center;
   position: absolute;
   background-image: url("pongBG1.png");
-  background-size: 70%;
+  background-size: cover;
 }
 
 #left-paddle {
