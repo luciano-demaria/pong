@@ -9,6 +9,7 @@ Feel free to play with things like color or font
 }
 
 html {
+  font-family: "Times";
   color: white;
   text-align: center;
   font-size: 16px;
