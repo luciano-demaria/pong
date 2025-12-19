@@ -74,13 +74,13 @@ function gameProcess() {
     leftScoreHigher.turnOn();
   }
 
-  ambientSound.player.playbackRate = scalerange(
+  /* ambientSound.player.playbackRate = scalerange(
     Math.abs(ball.direction.x),
     0,
     5,
     1,
     3
-  );
+  ); */ //This was messing up the playback rate
   //EVENTS
   // this is a non-persistant event so it only needs to be checked
   if (ballHitWall.state === true) {
