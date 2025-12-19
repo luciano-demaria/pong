@@ -11,6 +11,8 @@ RUNNING PROCESSES - things that will run every frame
 import {
   wallSound,
   paddleSound,
+  rightPaddleSound, //Alternative right paddle sound
+  leftPaddleSound, //Alternative left paddle sound
   scoreSound,
   ambientSound,
   adventureMusic,
@@ -87,8 +89,17 @@ function gameProcess() {
     wallSound.play();
   }
   if (ballHitPaddle.state) {
-    paddleSound.play();
+    rightPaddleSound.play(); //TEMPORARY UNTIL NEW PADDLE SOUNDS IMPLEMENTED
   }
+  // Commented area below is for future implementation of individual left/right paddle sounds
+  /*
+  if (ballHitRightPaddle.state) {
+    rightPaddleSound.play();
+  }
+  if (ballHitLeftPaddle.state) {
+    leftPaddleSound.play();
+  }
+  */
   if (leftScoreHit.state) {
     scoreSound.play();
   }
