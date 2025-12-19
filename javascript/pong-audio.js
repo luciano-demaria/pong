@@ -49,6 +49,12 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("silence.mp3");
 soundArray.push(paddleSound);
 
+export var rightPaddleSound = new soundFile("pongPaddle1.mp3");
+soundArray.push(rightPaddleSound);
+
+export var leftPaddleSound = new soundFile("pongPaddle2.mp3");
+soundArray.push(leftPaddleSound);
+
 export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
