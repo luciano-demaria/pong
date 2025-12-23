@@ -106,7 +106,7 @@ h2 {
 }
 
 .score {
-  display: block;
+  display: none; /*change to 'block' to display scores*/
   position: absolute;
   font-family: "Times";
   color: white;
@@ -119,4 +119,9 @@ h2 {
 
 #right-score {
   right: 1%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }
